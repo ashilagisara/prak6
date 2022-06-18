@@ -1,0 +1,76 @@
+public static void main(String[] args) {
+//Class Manusia
+manusia = new Manusia[3];
+System.out.println("========== DATA MANUSIA
+==========");
+manusia[0] = new Manusia("Ashila Gisara",
+"251427182517",false, false);
+manusia[1] = new Manusia("Salsabila
+Eksananda", "2635273823",false, true);
+manusia[2] = new Manusia("Mohammad Ishom",
+"351717969",true, true);
+System.out.println(manusia[0].toString());
+System.out.println(manusia[1].toString());
+System.out.println(manusia[2].toString());
+
+//Class Mahasiswa
+mahasiswa = new MahasiswaFilkom[3];
+System.out.println("========== DATA MAHASISWA
+==========");
+mahasiswa[0] = new
+MahasiswaFilkom("204150300156411", 3.4, "Risalatul
+Qoriah","324516271821",false,true);
+mahasiswa[1] = new
+MahasiswaFilkom("215150700145028", 4.0, "Muhammad
+Mahfud","317306620203",true,true);
+mahasiswa[2] = new
+MahasiswaFilkom("205150401134018", 3.7, "Ilham
+Salim","351923848239",true,true);
+System.out.println(mahasiswa[0].toString());
+System.out.println(mahasiswa[1].toString());
+System.out.println(mahasiswa[2].toString());
+
+//Class Pekerja
+pekerja = new Pekerja[3];
+System.out.println("=========== DATA PEKERJA
+===========");
+pekerja[0] = new Pekerja(7, 22,
+"6340765154321","Bagas Dwi","3562",true,true);
+pekerja[1] = new Pekerja(8, 25,
+"8370765140112","Hesti
+Rohmatunnisa","2182",false,true);
+pekerja[2] = new Pekerja(6, 20,
+"7330754321911","Muhammad Islah
+Hasanudin","2567",true,false);
+System.out.println(pekerja[0].toString());
+System.out.println(pekerja[1].toString());
+System.out.println(pekerja[2].toString());
+//Class Manager
+manager = new Manajer[3];
+System.out.println("=========== DATA MANAJER
+===========");
+manager[0] = new Manajer(1500, 9,
+20,"567863659810","Risma
+Priyastika","1590",false,true);
+manager[1] = new Manajer(5001, 7,
+12,"845632783412","Sulistyo Hadi","5055",true,true);
+manager[2] = new Manajer(4000, 8, 29,
+"762879891265","Try Adi Nugroho","4113",true,false);
+System.out.println(manager[0].toString());
+System.out.println(manager[1].toString());
+System.out.println(manager[2].toString());
+
+//Jumlah
+System.out.println("=========== TOTAL
+KESELURUHAN TERDAFTAR ===========");
+System.out.println("Jumlah Manusia\t : " +
+manusia.length);
+System.out.println("Jumlah Mahasiswa : " +
+mahasiswa.length);
+System.out.println("Jumlah Pekerja\t : " +
+pekerja.length);
+System.out.println("Jumlah Manager\t : " +
+manager.length);
+
+}
+}
